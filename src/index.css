@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: SoraFont-ExtraLight;
+  src: url('/fonts/Sora/static/Sora-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: SoraFont-Thin;
+  src: url('/fonts/Sora/static/Sora-Thin.ttf');
+}
+
+@font-face {
+  font-family: SoraFont-Light;
+  src: url('/fonts/Sora/static/Sora-Light.ttf');
+}
+
+@font-face {
+  font-family: SoraFont-Regular;
+  src: url('/fonts/Sora/static/Sora-Regular.ttf');
+}
+
+@font-face {
+  font-family: SoraFont-Medium;
+  src: url('/fonts/Sora/static/Sora-Medium.ttf');
+}
+
+@font-face {
+  font-family: SoraFont-SemiBold;
+  src: url('/fonts/Sora/static/Sora-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: SoraFont-Bold;
+  src: url('/fonts/Sora/static/Sora-Bold.ttf');
+}
+
+@font-face {
+  font-family: SoraFont-ExtraBold;
+  src: url('/fonts/Sora/static/Sora-ExtraBold.ttf');
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: SoraFont-Regular, sans-serif;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.btn-primary-bg {
+  border-radius: 8px;
+  background: linear-gradient(280deg, #D4AF37 10.76%, #6B4226 91.73%);
+  transition: opacity .2s linear;
+  opacity: 1;
+  user-select: none;
+}
+
+.text-primary-bg {
+  background: linear-gradient(116deg, #6B4226 -2.9%, #D4AF37 107.43%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-secondary-bg {
+  opacity: 0.06;
+  background: linear-gradient(171deg, #000 26.07%, rgba(102, 102, 102, 0.00) 102.14%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-image {
+  /* Garante que a imagem cubra todo o fundo */
+  pointer-events: none;
+  /* Impede que a imagem seja selecionada ou pressionada */
+  user-drag: none;
+  /* Desabilita arrastar e soltar em navegadores WebKit */
+  -webkit-user-drag: none;
+  /* Desabilita arrastar e soltar em navegadores WebKit */
+  user-select: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet {
+  display: none;
+}
