@@ -36,19 +36,13 @@ const Historia = () => {
     }, []);
 
     const slides = [
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
-        { src: 'image/historia/slide/02.png', alt: 'Image 1' },
+        { src: 'image/historia/slide/01.webp', alt: 'Image 1' },
+        { src: 'image/historia/slide/02.webp', alt: 'Image 2' },
+        { src: 'image/historia/slide/03.webp', alt: 'Image 3' },
+        { src: 'image/historia/slide/04.webp', alt: 'Image 4' },
+        { src: 'image/historia/slide/05.webp', alt: 'Image 5' },
+        { src: 'image/historia/slide/06.webp', alt: 'Image 6' },
+        { src: 'image/historia/slide/07.webp', alt: 'Image 7' },
         // Adicione mais imagens conforme necessário
     ];
 
@@ -157,7 +151,7 @@ const Historia = () => {
                         >
                             {slides.map((slide, index) => (
                                 <SwiperSlide key={index}>
-                                    <img src={slide.src} alt={slide.alt} />
+                                    <img className='rounded-[20px]' src={slide.src} alt={slide.alt} />
                                 </SwiperSlide>
                             ))}
                         </Swiper>

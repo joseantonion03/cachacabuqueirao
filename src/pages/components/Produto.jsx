@@ -14,7 +14,7 @@ const Produto = () => {
                         </div>
                     </div>
                     <div className="lg:ml-[-9%] lg:mt-[-10%] w-[690px] max-lg:order-1">
-                        <img src="/image/produto/kit.png" className="w-full" alt="Imagem da cachaça" />
+                        <img src="/image/produto/kit.webp" className="w-full" alt="Imagem da cachaça" />
                     </div>
                 </div>
             </div>

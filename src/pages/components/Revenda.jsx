@@ -54,7 +54,7 @@ const Revenda = () => {
                         </ul>
 
                         <div className="ml-[-8%] max-lg:mt-10">
-                            <img src="/image/revenda/equipe.png" alt="Equipe buqueirão" />
+                            <img src="/image/revenda/equipe.webp" alt="Equipe buqueirão" />
                         </div>
                     </div>
                 </div>

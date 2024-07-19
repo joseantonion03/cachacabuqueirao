@@ -9,11 +9,11 @@ const Exclusividade = () => {
                     <img className="absolute background-image top-[50%] left-[50%] object-contain z-[-1] translate-x-[-50%] translate-y-[-50%]" src="/image/exclusividade/ellipse.png" alt="Imagem de efeito" />
 
                     <picture>
-                        <source srcSet="/image/exclusividade/contrato.png" media="(min-width: 768px)" />
-                        <source srcSet="/image/exclusividade/contrato-mobile.png" media="(max-width: 767px)" />
+                        <source srcSet="/image/exclusividade/contrato.webp" media="(min-width: 768px)" />
+                        <source srcSet="/image/exclusividade/contrato-mobile.webp" media="(max-width: 767px)" />
                         <img
                             className="mx-auto w-full max-w-[950px] background-image"
-                            src="/image/exclusividade/contrato.png"
+                            src="/image/exclusividade/contrato.webp"
                             alt="Nosso compromisso" />
                     </picture>
                 </div>

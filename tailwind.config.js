@@ -6,12 +6,11 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'img_bg_hero': "url('/image/hero/bg.png')",
-      'img_bg_hero_full': "url('/image/hero/bg-full.png')",
-      'img_bg_hero_mobile': "url('/image/hero/bg-mobile.png')",
-      'img_bg_reputacao': "url('/image/reputacao/bg.png')",
-      'img_bg_historia': "url('/image/historia/bg.png')",
-      'img_bg_historia_line2': "url('/image/historia/line-2.png')",
+      'img_bg_hero': "url('/image/hero/bg.webp')",
+      'img_bg_hero_full': "url('/image/hero/bg-full.webp')",
+      'img_bg_hero_mobile': "url('/image/hero/bg-mobile.webp')",
+      'img_bg_reputacao': "url('/image/reputacao/bg.webp')",
+      'img_bg_historia': "url('/image/historia/bg.webp')",
     },
 
     extend: {

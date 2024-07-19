@@ -37,6 +37,7 @@ const Localizacao = () => {
                         width={757}
                         height={428}
                         style={{ border: 0 }}
+                        aria-label="Visualizar Mapa"
                         allowFullScreen=""
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"

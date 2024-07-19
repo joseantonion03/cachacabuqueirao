@@ -106,10 +106,10 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="w-[300px] max-sm:w-full">
-                        <img className="w-full max-sm:max-w-[300px] max-sm:mx-auto max-sm:my-5" src="/image/footer/selo.png" alt="Selo do google" />
+                        <img className="w-full max-sm:max-w-[300px] max-sm:mx-auto max-sm:my-5" src="/image/footer/selo.webp" alt="Selo do google" />
                     </div>
                 </div>
-                <p className="font-[SoraFont-Regular] text-[25px] text-[#181818] leading-[35px] flex max-sm:justify-center max-sm:flex-wrap">Desenvolvido por: <img className="w-[130px] ml-3" src="/image/footer/atomo.png" alt="Agencia Atomo" /></p>
+                <p className="font-[SoraFont-Regular] text-[25px] text-[#181818] leading-[35px] flex max-sm:justify-center max-sm:flex-wrap">Desenvolvido por: <img className="w-[130px] ml-3" src="/image/footer/atomo.webp" alt="Agencia Atomo" /></p>
 
             </div>
         </footer>
