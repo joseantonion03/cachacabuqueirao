@@ -33,7 +33,7 @@ const Footer = () => {
                         <p className="font-[SoraFont-Regular] text-[#181818] text-[19px] mb-2 max-sm:text-center">Nós acompanhe:</p>
                         <ul className="flex max-sm:justify-center">
                             <li>
-                                <a href="#" className="mr-3 bg-[rgba(45,45,50,0.1)] rounded-full w-[48px] h-[48px] flex justify-center items-center hover:opacity-75">
+                                <a aria-label="Instagram" target="_blank" rel="noopener noreferrer" href="#" className="mr-3 bg-[rgba(45,45,50,0.1)] rounded-full w-[48px] h-[48px] flex justify-center items-center hover:opacity-75">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={18}
@@ -50,7 +50,7 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="mr-3 bg-[rgba(45,45,50,0.1)] rounded-full w-[48px] h-[48px] flex justify-center items-center hover:opacity-75">
+                                <a aria-label="Twitter" target="_blank" rel="noopener noreferrer" href="#" className="mr-3 bg-[rgba(45,45,50,0.1)] rounded-full w-[48px] h-[48px] flex justify-center items-center hover:opacity-75">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={18}
@@ -68,7 +68,7 @@ const Footer = () => {
 
                             </li>
                             <li>
-                                <a href="#" className="mr-3 bg-[rgba(45,45,50,0.1)] rounded-full w-[48px] h-[48px] flex justify-center items-center hover:opacity-75">
+                                <a aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" href="#" className="mr-3 bg-[rgba(45,45,50,0.1)] rounded-full w-[48px] h-[48px] flex justify-center items-center hover:opacity-75">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={26}
@@ -86,7 +86,7 @@ const Footer = () => {
 
                             </li>
                             <li>
-                                <a href="#" className="mr-3 bg-[rgba(45,45,50,0.1)] rounded-full w-[48px] h-[48px] flex justify-center items-center hover:opacity-75er">
+                                <a aria-label="Facebook" target="_blank" rel="noopener noreferrer" href="#" className="mr-3 bg-[rgba(45,45,50,0.1)] rounded-full w-[48px] h-[48px] flex justify-center items-center hover:opacity-75er">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={26}
